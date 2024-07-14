@@ -1,7 +1,9 @@
 
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: ASK PREPARE PROCESS ANALYZE SHARE ACT
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: 
+
+ASK PREPARE PROCESS ANALYZE SHARE ACT
  
 ### Quick links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)   
@@ -123,28 +125,35 @@ Next the number of trips distributed by the months, by seasons, days of the week
 ![image](https://github.com/user-attachments/assets/d24351ea-8467-4711-9ca0-c49c8fc9e4bf)
 
   
-__Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the summer and fall and fewer in the spring and least in winter. The gap between casuals and members is closest in the month of july in summmer.   
+__Months:__ When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the summer and fall and fewer in the spring and least in winter. The gap between casuals and members is closest in the month of july in summmer.  
+ 
 __Days of Week:__ When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends, particularly on Saturday, as compared to weekdays while members show a decline over the weekend in contrast to weekdays. Still the total trips over Weekdays are more than double in number to Weekends. 
+
 __Hours of the Day:__ The members shows 2 peaks throughout the day in terms of number of trips. One is early in the morning at around 7 am to 8 am and other is in the evening at around 4 pm to 6 pm while number of trips for casual riders increase consistently over the day till evening (5-6 pm) and then decrease afterwards.  
   
 We can infer from the previous observations that member may be using bikes for commuting to and from the work in the week days while casual riders are using bikes throughout the day, more frequently over the weekends for leisure purposes. Both are most active in summer and fall.  
   
 Ride duration of the trips are compared to find the differences in the behavior of casual and member riders.  
+
+  ![image](https://github.com/user-attachments/assets/623c993d-8c7a-425f-9ddd-e06d3ccf5bf7)
+
   
-![image](https://user-images.githubusercontent.com/125132307/230164787-3ea46ee9-aa5f-486b-9dd1-8f43dfce8e1c.png)  
-![image](https://user-images.githubusercontent.com/125132307/230164889-1c7943d2-7ada-411b-adc7-a043eb480ba1.png)
+Take note that casual riders tend to cycle longer than members do on average. The length of the average journey for members doesn't change much throughout the month, day or hour. However, there are variations in how long casual riders cycle. In the summer and fall, on weekends, and from 10 am to 2 pm during the day, they travel greater distances. Between five and eight in the morning, they have brief trips.
   
-Take note that casual riders tend to cycle longer than members do on average. The length of the average journey for members doesn't change throughout the year, week, or day. However, there are variations in how long casual riders cycle. In the spring and summer, on weekends, and from 10 am to 2 pm during the day, they travel greater distances. Between five and eight in the morning, they have brief trips.
+These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in summer and fall season, so they might be doing so for recreation purposes.    
   
-These findings lead to the conclusion that casual commuters travel longer (approximately 2x more) but less frequently than members. They make longer journeys on weekends and during the day outside of commuting hours and in spring and summer season, so they might be doing so for recreation purposes.    
+To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed, Stations with the most trips (Top 15) are considered using filters to draw out the following conclusions.  
   
-To further understand the differences in casual and member riders, locations of starting and ending stations can be analysed. Stations with the most trips are considered using filters to draw out the following conclusions.  
+![image](https://github.com/user-attachments/assets/6b191326-038f-4cda-9a81-1145f8001d8b)
+
+![image](https://github.com/user-attachments/assets/0a450609-81a4-400c-99c5-2d1ac45daf61)
+
+![image](https://github.com/user-attachments/assets/a61fee02-ad04-436f-9236-bbea7525c0bc)
+
+![image](https://github.com/user-attachments/assets/f6391014-ac0d-4674-9045-784afb71d283)
   
-![image](https://user-images.githubusercontent.com/125132307/230248445-3fe69cbb-30a9-42c6-b5e8-ab433a620ff3.png)  
   
-Casual riders have frequently started their trips from the stations in vicinity of museums, parks, beach, harbor points and aquarium while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas.  
-  
-![image](https://user-images.githubusercontent.com/125132307/230253219-4fb8a2ed-95e3-4e52-a359-9d86945b7a75.png)
+Casual riders have frequently started their trips from the stations in vicinity of commercial districts, museums, parks, beach, harbor points, aquarium (near the bay area) while members have begun their journeys from stations close to universities, residential areas, restaurants, hospitals, grocery stores, theatre, schools, banks, factories, train stations, parks and plazas. So, members tend to expand their rides to Suburban areas possibly for commuting purposes.  
   
 Similar trend can be observed in ending station locations. Casual riders end their journay near parks, museums and other recreational sites whereas members end their trips close to universities, residential and commmercial areas. So this proves that casual riders use bikes for leisure activities while members extensively rely on them for daily commute.  
   
@@ -157,8 +166,32 @@ Summary:
 |Start and end their journeys near parks, museums, along the coast and other recreational sites.|Start and end their trips close to universities, residential and commercial areas.|  
   
 ## Act
-After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.  
-Recommendations:  
+After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members. 
+ 
+## Recommendations:
+  
 1. Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
 2. Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
 3. Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
+4. Consider alternatives to conversion, such as new service and price offerings
+   Weekend Pass
+   • Yearly subscription providing an unlimited pass for every weekend
+   • Introduces a middle pricing tier that could be the basis for pricing optimization
+5. Explore ways to convey the benefits of more frequent biking (Social Media Nudge Model), to influence consumer behavior subtly by leveraging psychological insights.
+
+   Example - 
+
+   By using Cyclistic...
+
+   You saved $105.50 otherwise used on gas
+
+   You burned 10,000 calories
+
+   You increased your life expectancy by 7 years
+
+   You saved the planet from the equivalent of 3 gas tanks of CO2
+
+6. Surge Pricing Model -
+   Implement surge pricing during peak demand times to incentivize casual riders to opt for more cost-effective annual memberships, thereby maximizing profitability and promoting growth for Cyclistic.
+
+7. A word of caution can be that the evidence is inconclusive, There may be more than meets the eye, Moving forward as is with a conversion marketing strategy is risky.
